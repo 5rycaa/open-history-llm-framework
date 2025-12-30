@@ -7,6 +7,7 @@ The are 3 main parts to operating this framework, each of which is described in 
 - Part 1: Preprocessing - flexible raw data handling and filtering of source documents
 - Part 2: Processing - streamlined text conversion from PDFs to text files
 - Part 3: Model - integration of an open-source LLM
+- Part 4: Files - supplementary files for JDH publication
 
 
 ### Getting Started
@@ -29,13 +30,22 @@ cd open-history-llm-framework
 ### Open Data Source
 - [IRRI Staff Publications](https://scientific-output.irri.org/)
 
+
 ### Third-Party Components
 - H2O GPT (Apache2.0): [https://github.com/h2oai/h2ogpt](https://github.com/h2oai/h2ogpt)
 - key libraries from conda-forge
 
+
 ### License
 This project is licensed under the Apache 2 License.
+
 
 ### Authors
 Gerber Petra, UZH  
 Routh Devin, UZH  
+
+
+## Citation
+Gerber, P., Routh, D. (2025)
+Open History LLM Framework. GitHub repository.
+https://github.com/5rycaa/open-history-llm-framework
