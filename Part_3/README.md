@@ -1,13 +1,13 @@
-# RiceDB
+# Part 3: Running a GPT with a Retrieval Augmented Generation Framework (RAG)
 
-## Running a GPT with a Retrieval Augmented Generation Framework (RAG)
-
+## Description
 There are principally two methods by which one would run an open source GPT with RAG functionality:
 
 1. Interactively: to have a "chat" experience and to fully explore a GPT framework.
 2. Programmatically: to batch process a large series of prompts and receive responses efficiently. (Still under development!)
 
 We present code for both options to run [H2OGPT](https://github.com/h2oai/h2ogpt) via a [Singularity](https://docs.sylabs.io/guides/latest/user-guide/) container. Singularity was chosen as it is a academic and industry standard for running scientific applications on high performance computing (HPC) clusters and other systems, making it a natural choice for demonstrating interaction with an open-source GPT on university based HPC computational resources.
+
 
 ### Interative H2OGPT
 
@@ -20,6 +20,7 @@ The `interactive_h2ogpt_via_singularity.sh` script shows the commands necessary 
 Please note: some level of port management is necessary for many researchers making use of university HPC systems. For this example, it was necessary to connect to the university cluster with properly specified port rules (based on H2OGPT defaults). I.e., the `ssh` connection to the cluster was specified as:
 
 `ssh username@cluster.address -L 7860:node_ip_address_where_h2ogpt_is_running:7860 -N`
+
 
 ### Programmatic H2OGPT Evaluation (Still Under Development)
 
