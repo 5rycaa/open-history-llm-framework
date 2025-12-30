@@ -35,3 +35,7 @@ cd open-history-llm-framework
 
 ### License
 This project is licensed under the Apache 2 License.
+
+### Authors
+Gerber Petra, UZH  
+Routh Devin, UZH  
