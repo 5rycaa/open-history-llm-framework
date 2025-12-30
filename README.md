@@ -2,7 +2,7 @@
 
 ### Features
 
-The are 3 main parts to operating this framework, each of which is described in the corresponding subdirectory:
+The are 3 main parts to operating this framework, each of which is described in the corresponding subdirectory, with one part serving as supplementary files for publication:
 
 - Part 1: Preprocessing - flexible raw data handling and filtering of source documents
 - Part 2: Processing - streamlined text conversion from PDFs to text files
