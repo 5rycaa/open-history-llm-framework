@@ -29,9 +29,21 @@ cd open-history-llm-framework
 ### Open Data Source
 - [IRRI Staff Publications](https://scientific-output.irri.org/)
 
+
 ### Third-Party Components
 - H2O GPT (Apache2.0): [https://github.com/h2oai/h2ogpt](https://github.com/h2oai/h2ogpt)
 - key libraries from conda-forge
 
+
 ### License
 This project is licensed under the Apache 2 License.
+
+
+### Authors
+Gerber Petra (UZH)  
+Routh Devin (UZH)  
+
+## Citation
+Gerber, P., Routh, D. (2025) 
+Open History LLM Framework. GitHub repository. 
+https://github.com/5rycaa/open-history-llm-framework
